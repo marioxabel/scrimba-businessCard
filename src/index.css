@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+.card {
+  background-color:  #1A1B21;
+  width: 317px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+}
+
+.card > img {
+  position: absolute;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info > img {
+  margin-left: -35px;
+}
+
+.info--buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.info--buttons_email {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #374151;
+  width: 115px;
+  height: 34px;
+
+}
+
+.info--buttons_linkedIn {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #5093E2;
+  width: 115px;
+  height: 34px;
+
+}
+
+
+.info--buttons_email > h4,  .info--buttons_linkedIn > h4 {
+  margin-left: 8px;
+}
