@@ -9,8 +9,8 @@ export default function Info() {
         <div className='info'>
             <img src={laura} alt='photo of laura'/>
             <h2>Laura Smith</h2>
-            <p>Frontend Developer</p>
-            <p>laurasmith.website</p>
+            <p className='info--yellow'>Frontend Developer</p>
+            <p className='info--web'>laurasmith.website</p>
             <div className='info--buttons'>
                 <div className='info--buttons_email'>
                     <FontAwesomeIcon icon={faEnvelope} />

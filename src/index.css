@@ -6,6 +6,7 @@ body {
   background-color: #23252C;
   font-family: 'Inter', sans-serif;
   color: #fff;
+  margin: 0px;
 }
 
 .card {
@@ -14,12 +15,7 @@ body {
   padding-left: 35px;
   padding-right: 35px;
   border-radius: 10px;
-}
-
-.card > img {
-  position: absolute;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin: 20px auto;
 }
 
 .info {
@@ -30,9 +26,27 @@ body {
   margin-left: -35px;
 }
 
+.info > h2 {
+  margin-top: 21px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.info--yellow {
+  color: #F3BF99;
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.info--web {
+  margin-top: 8px;
+  font-size: 10px;
+}
+
 .info--buttons {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 
@@ -60,4 +74,34 @@ body {
 
 .info--buttons_email > h4,  .info--buttons_linkedIn > h4 {
   margin-left: 8px;
+}
+
+.about > p, .interests > p {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.about > h3, .interests >h3 {
+  margin: 0px
+}
+
+.about {
+  margin-top: 33px;
+}
+
+.interests {
+  margin-top: 27px;
+}
+
+.footer {
+  height: 64px;
+  background-color: #161619;
+  margin-left: -35px;
+  margin-right: -35px;
+  border-radius: 10px;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  padding: 19px 73px;
+  margin-top: 27px;
 }
